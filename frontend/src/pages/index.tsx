@@ -1,0 +1,1 @@
+export { } // placeholder for Next.js-style routing, not used in CRA/Vite
