@@ -1,0 +1,57 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv/
+venv/
+ENV/
+.env.local
+.env.*.local
+
+# ---- FastAPI / Uvicorn ----
+*.log
+
+# ---- Node / React ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+dist/
+build/
+.cache/
+.next/
+out/
+
+# ---- IDEs / Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Test / Coverage ----
+coverage/
+*.cover
+*.py,cover
+*.mocha
+*.nyc_output
+*.pytest_cache/
+jest-html-reporters-*.html
+
+# ---- Database ----
+*.sqlite3
+*.db
+*.sql
